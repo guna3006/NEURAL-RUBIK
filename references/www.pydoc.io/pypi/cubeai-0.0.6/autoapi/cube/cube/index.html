@@ -1,0 +1,453 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<!-- Mirrored from www.pydoc.io/pypi/cubeai-0.0.6/autoapi/cube/cube/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Nov 2018 02:18:12 GMT -->
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-17997319-4']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +             '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>cube.cube &mdash; cubeai 0.0.6 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../../../_static/autoapi.html" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../../genindex.html"/>
+        <link rel="search" title="Search" href="../../../search.html"/>
+    <link rel="top" title="cubeai 0.0.6 documentation" href="../../../index.html"/> 
+
+  
+  <script src="../../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> cubeai
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.6
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="https://www.pydoc.io/pypi/cubeai-0.0.6/search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">API</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../__init__/index.html"><code class="docutils literal"><span class="pre">__init__</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../solver/search/index.html"><code class="docutils literal"><span class="pre">solver.search</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../solver/util/index.html"><code class="docutils literal"><span class="pre">solver.util</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../solver/index.html"><code class="docutils literal"><span class="pre">solver</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../solver/solver/index.html"><code class="docutils literal"><span class="pre">solver.solver</span></code></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><code class="docutils literal"><span class="pre">cube.cube</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-contents">Module Contents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#classes">Classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#cube.cube.invert_permutation">invert_permutation</a></li>
+</ul>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#cube.cube.Face">Face</a></li>
+</ul>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#cube.cube.Action">Action</a></li>
+</ul>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#cube.cube.Cube">Cube</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><code class="docutils literal"><span class="pre">cube</span></code></a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#submodules">Submodules</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><code class="docutils literal"><span class="pre">cube.cube</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#module-contents">Module Contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#package-contents">Package Contents</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../../index.html">cubeai</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../index.html">Docs</a> &raquo;</li>
+      
+    <li><code class="docutils literal"><span class="pre">cube.cube</span></code></li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/autoapi/cube/cube/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-cube.cube">
+<span id="cube-cube"></span><h1><a class="reference internal" href="#module-cube.cube" title="cube.cube"><code class="xref py py-mod docutils literal"><span class="pre">cube.cube</span></code></a><a class="headerlink" href="#module-cube.cube" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-contents">
+<h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="classes">
+<h3>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="#cube.cube.Face" title="cube.cube.Face"><code class="xref py py-obj docutils literal"><span class="pre">Face</span></code></a>()</td>
+<td>Enumeration of the cube’s faces</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#cube.cube.Action" title="cube.cube.Action"><code class="xref py py-obj docutils literal"><span class="pre">Action</span></code></a>(self,face_or_str,k=1,layer=0)</td>
+<td>a class to nicely represent an action.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#cube.cube.Cube" title="cube.cube.Cube"><code class="xref py py-obj docutils literal"><span class="pre">Cube</span></code></a>(self,layers=3)</td>
+<td>A simple representation of a NxNxN cube (3x3x3 by default)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="functions">
+<h3>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="#cube.cube.invert_permutation" title="cube.cube.invert_permutation"><code class="xref py py-obj docutils literal"><span class="pre">invert_permutation</span></code></a>(p)</td>
+<td>invert a permutation given by the list <a href="#id1"><span class="problematic" id="id2">`</span></a>p’</td>
+</tr>
+</tbody>
+</table>
+<dl class="function">
+<dt id="cube.cube.invert_permutation">
+<code class="descname">invert_permutation</code><span class="sig-paren">(</span><em>p</em><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.invert_permutation" title="Permalink to this definition">¶</a></dt>
+<dd><p>invert a permutation given by the list <a href="#id3"><span class="problematic" id="id4">`</span></a>p’</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="cube.cube.Face">
+<em class="property">class </em><code class="descname">Face</code><a class="headerlink" href="#cube.cube.Face" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enumeration of the cube’s faces</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="cube.cube.Action">
+<em class="property">class </em><code class="descname">Action</code><span class="sig-paren">(</span><em>face_or_str</em>, <em>k=1</em>, <em>layer=0</em><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Action" title="Permalink to this definition">¶</a></dt>
+<dd><p>a class to nicely represent an action.</p>
+<dl class="method">
+<dt id="cube.cube.Action.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>face_or_str</em>, <em>k=1</em>, <em>layer=0</em><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Action.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>can be initialized either with a standard string (e.g. “F’”) or
+explicitly give a face, amount and layer.
+:param face_or_str: cubeai.cube.cube.Face or string
+:param k: int
+:param layer: non-negative int</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Action.__init_from_str__">
+<code class="descname">__init_from_str__</code><span class="sig-paren">(</span><em>string</em><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Action.__init_from_str__" title="Permalink to this definition">¶</a></dt>
+<dd><p>initializes the action from an action string
+:param string: F B L R U D for front, back, left, right, up, down</p>
+<blockquote>
+<div>respectively. default is clockwise rotation.
+add ‘ in the end (e.g. R’) for counter-clockwise,
+or 2 for 180 degrees rotation (e.g. R2)</div></blockquote>
+</dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Action.inverse">
+<code class="descname">inverse</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Action.inverse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Action.__eq__">
+<code class="descname">__eq__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Action.__eq__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Action.__str__">
+<code class="descname">__str__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Action.__str__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Action.__repr__">
+<code class="descname">__repr__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Action.__repr__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="cube.cube.Cube">
+<em class="property">class </em><code class="descname">Cube</code><span class="sig-paren">(</span><em>layers=3</em><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Cube" title="Permalink to this definition">¶</a></dt>
+<dd><p>A simple representation of a NxNxN cube (3x3x3 by default)</p>
+<dl class="method">
+<dt id="cube.cube.Cube.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>layers=3</em><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Cube.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a new instance of a NxNxN cube, where N is the <a href="#id5"><span class="problematic" id="id6">`</span></a>layers’ param
+:param layers: the number of layers in the cube (3 by default)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Cube.copy">
+<code class="descname">copy</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Cube.copy" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Cube._rotate_front">
+<code class="descname">_rotate_front</code><span class="sig-paren">(</span><em>amount</em>, <em>layer</em><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Cube._rotate_front" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rotates the <a href="#id7"><span class="problematic" id="id8">`</span></a>layer’th layer in the front face of the cube represented
+by the array <a href="#id9"><span class="problematic" id="id10">`</span></a>arr’.
+:param arr: NxNx6 array representing a cube
+:param amount: the number of 90 deg. rotations clockwise
+:param layer: which layer to rotate (int between 0 and the number</p>
+<blockquote>
+<div>of layers in the cube divided by 2)</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a rotated array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Cube.to_array">
+<code class="descname">to_array</code><span class="sig-paren">(</span><em>flat=True</em><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Cube.to_array" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>flat</strong> – True for a flat array (1d), False for NxNx6 array</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the array representing this cube</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Cube.rotate">
+<code class="descname">rotate</code><span class="sig-paren">(</span><em>face</em>, <em>amount</em>, <em>layer=0</em><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Cube.rotate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rotates a given layer parallel to a face of the cube
+:param face: must be a <a href="#id11"><span class="problematic" id="id12">`</span></a>Face’ instance
+:param amount: number of counterclockwise rotations
+:param layer: which layer to rotate (int in the range [0,m/2) where</p>
+<blockquote>
+<div>m is the number of layers in the cube)</div></blockquote>
+</dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Cube.apply">
+<code class="descname">apply</code><span class="sig-paren">(</span><em>sequence</em><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Cube.apply" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Cube.is_solved">
+<code class="descname">is_solved</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Cube.is_solved" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">True if the cube is solved, False otherwise</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Cube.get_face">
+<code class="descname">get_face</code><span class="sig-paren">(</span><em>face</em><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Cube.get_face" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a 2d array of the chosen face
+:param face: a Face instance
+:return: NxN array of colors of the chosen face</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Cube.__str__">
+<code class="descname">__str__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Cube.__str__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Cube.__repr__">
+<code class="descname">__repr__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Cube.__repr__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Cube.__hash__">
+<code class="descname">__hash__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Cube.__hash__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="cube.cube.Cube.__eq__">
+<code class="descname">__eq__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#cube.cube.Cube.__eq__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../../',
+            VERSION:'0.0.6',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+
+<!-- Mirrored from www.pydoc.io/pypi/cubeai-0.0.6/autoapi/cube/cube/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Nov 2018 02:18:13 GMT -->
+</html>

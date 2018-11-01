@@ -1,0 +1,28 @@
+:mod:`solver`
+=============
+
+.. py:module:: solver
+
+
+
+
+Submodules
+----------
+.. toctree::
+   :maxdepth: 1
+
+   search/index.rst
+   solver/index.rst
+   util/index.rst
+
+
+
+
+Package Contents
+----------------
+
+
+
+
+
+

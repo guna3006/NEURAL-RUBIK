@@ -1,0 +1,118 @@
+:mod:`solver.solver`
+====================
+
+.. py:module:: solver.solver
+
+
+
+
+
+
+
+Module Contents
+---------------
+
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   solversolverCubeProblem
+
+
+
+
+
+Functions
+~~~~~~~~~
+.. autoapisummary::
+
+
+   solversolversolve
+   solversolverrandom_actions
+
+
+.. py:class:: CubeProblem(cube,quarter_metric=True)
+
+   a Problem class to be used with the search module 
+
+   
+
+   
+
+   
+   
+   .. method:: __init__(cube,quarter_metric=True)
+   
+      
+      :param cube: a cubeai.cube.cube.Cube instance
+      :param quarter_metric: if True, use 90 degrees rotations only.
+                             otherwise use also 180 degrees.
+      
+   
+
+   
+   
+   .. method:: get_start_state()
+   
+      
+   
+
+   
+   
+   .. method:: is_goal_state(cube)
+   
+      
+   
+
+   
+   
+   .. method:: get_successors(cube)
+   
+      
+   
+
+   
+   
+   .. method:: get_cost_of_actions(actions)
+   
+      
+   
+   
+
+
+
+
+
+.. function:: solve(cube,heuristic=None,verbose=False)
+
+   
+   solves a given cube instance
+   :param cube: cubeai.cube.cube.Cube instance
+   :param heuristic: a heuristic function for A* search.
+                     takes a cube and problem instances as input and returns
+                     a number.
+                     by default, uses the null heuristic (0 for every state)
+   :param verbose: if True, prints some information about the search
+   :return: a list of actions that solves the cube
+   
+
+
+
+
+
+
+.. function:: random_actions(cube,num_actions,quarter_metric=True)
+
+   
+   returns a sequence of random actions on the given cube
+   (does not apply the actions to the cube)
+   :param cube: Cube object
+   :param num_actions: an integer >= 1
+   :param quarter_metric: whether to use the quarter-turn metric or not
+   :return: a sequence of `num_actions' actions
+   
+
+
+

@@ -1,0 +1,243 @@
+:mod:`cube.cube`
+================
+
+.. py:module:: cube.cube
+
+
+
+
+
+
+
+Module Contents
+---------------
+
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   cubecubeFace
+   cubecubeAction
+   cubecubeCube
+
+
+
+
+
+Functions
+~~~~~~~~~
+.. autoapisummary::
+
+
+   cubecubeinvert_permutation
+
+
+
+
+.. function:: invert_permutation(p)
+
+   
+   invert a permutation given by the list `p' 
+   
+
+
+
+
+.. py:class:: Face
+
+   Enumeration of the cube's faces 
+
+   
+
+   
+   
+
+
+
+.. py:class:: Action(face_or_str,k=1,layer=0)
+
+   a class to nicely represent an action. 
+
+   
+
+   
+
+   
+   
+   .. method:: __init__(face_or_str,k=1,layer=0)
+   
+      
+      can be initialized either with a standard string (e.g. "F'") or
+      explicitly give a face, amount and layer.
+      :param face_or_str: cubeai.cube.cube.Face or string
+      :param k: int
+      :param layer: non-negative int
+      
+   
+
+   
+   
+   .. method:: __init_from_str__(string)
+   
+      
+      initializes the action from an action string
+      :param string: F B L R U D for front, back, left, right, up, down
+                     respectively. default is clockwise rotation.
+                     add ' in the end (e.g. R') for counter-clockwise,
+                     or 2 for 180 degrees rotation (e.g. R2)
+      
+   
+
+   
+   
+   .. method:: inverse()
+   
+      
+   
+
+   
+   
+   .. method:: __eq__(other)
+   
+      
+   
+
+   
+   
+   .. method:: __str__()
+   
+      
+   
+
+   
+   
+   .. method:: __repr__()
+   
+      
+   
+   
+
+
+
+.. py:class:: Cube(layers=3)
+
+   A simple representation of a NxNxN cube (3x3x3 by default) 
+
+   
+
+   
+
+   
+   
+   .. method:: __init__(layers=3)
+   
+      
+      Creates a new instance of a NxNxN cube, where N is the `layers' param
+      :param layers: the number of layers in the cube (3 by default)
+      
+   
+
+   
+   
+   .. method:: copy()
+   
+      
+   
+
+   
+   
+   .. method:: _rotate_front(amount,layer)
+   
+      
+      Rotates the `layer'th layer in the front face of the cube represented
+      by the array `arr'.
+      :param arr: NxNx6 array representing a cube
+      :param amount: the number of 90 deg. rotations clockwise
+      :param layer: which layer to rotate (int between 0 and the number
+                    of layers in the cube divided by 2)
+      :return: a rotated array
+      
+   
+
+   
+   
+   .. method:: to_array(flat=True)
+   
+      
+      :param flat: True for a flat array (1d), False for NxNx6 array
+      :return: the array representing this cube
+      
+   
+
+   
+   
+   .. method:: rotate(face,amount,layer=0)
+   
+      
+      Rotates a given layer parallel to a face of the cube
+      :param face: must be a `Face' instance
+      :param amount: number of counterclockwise rotations
+      :param layer: which layer to rotate (int in the range [0,m/2) where
+                    m is the number of layers in the cube)
+      
+   
+
+   
+   
+   .. method:: apply(sequence)
+   
+      
+   
+
+   
+   
+   .. method:: is_solved()
+   
+      
+      :return: True if the cube is solved, False otherwise
+      
+   
+
+   
+   
+   .. method:: get_face(face)
+   
+      
+      Get a 2d array of the chosen face
+      :param face: a Face instance
+      :return: NxN array of colors of the chosen face
+      
+   
+
+   
+   
+   .. method:: __str__()
+   
+      
+   
+
+   
+   
+   .. method:: __repr__()
+   
+      
+   
+
+   
+   
+   .. method:: __hash__()
+   
+      
+   
+
+   
+   
+   .. method:: __eq__(other)
+   
+      
+   
+   
+
+

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: rubikai
+Version: 0.1.2
+Summary: Solving the Rubik's Cube Without Human Knowledge
+Home-page: https://arxiv.org/abs/1805.07470
+Author: Forest Agostinelli
+Author-email: Agostinelli.f@hotmail.com
+License: UNKNOWN
+Description: # Solving the Rubik's Cube Without Human Knowledge
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

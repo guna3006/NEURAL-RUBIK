@@ -1,0 +1,19 @@
+Provider: Schloss Dagstuhl - Leibniz Center for Informatics
+Provider: University of Trier
+Database: dblp computer science bibliography
+Content:text/plain; charset="utf-8"
+
+TY  - EDBOOK
+ID  - DBLP:books/daglib/0028910
+ED  - Hamadi, Youssef
+ED  - Monfroy, Eric
+ED  - Saubion, Frédéric
+TI  - Autonomous Search
+PY  - 2012//
+PB  - Springer
+DO  - 10.1007/978-3-642-21434-9
+UR  - https://doi.org/10.1007/978-3-642-21434-9
+SN  - ISBN 978-3-642-21433-2
+SN  - ISBN 978-3-642-21434-9
+ER  -
+

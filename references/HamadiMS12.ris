@@ -1,0 +1,19 @@
+Provider: Schloss Dagstuhl - Leibniz Center for Informatics
+Provider: University of Trier
+Database: dblp computer science bibliography
+Content:text/plain; charset="utf-8"
+
+TY  - CHAP
+ID  - DBLP:books/daglib/p/HamadiMS12
+AU  - Hamadi, Youssef
+AU  - Monfroy, Eric
+AU  - Saubion, Frédéric
+TI  - An Introduction to Autonomous Search.
+BT  - Autonomous Search
+SP  - 1
+EP  - 11
+PY  - 2012//
+DO  - 10.1007/978-3-642-21434-9_1
+UR  - https://doi.org/10.1007/978-3-642-21434-9_1
+ER  -
+

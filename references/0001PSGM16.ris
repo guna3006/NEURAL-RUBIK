@@ -1,0 +1,20 @@
+Provider: Schloss Dagstuhl - Leibniz Center for Informatics
+Provider: University of Trier
+Database: dblp computer science bibliography
+Content:text/plain; charset="utf-8"
+
+TY  - CPAPER
+ID  - DBLP:conf/ijcai/0001PSGM16
+AU  - Keller, Thomas
+AU  - Pommerening, Florian
+AU  - Seipp, Jendrik
+AU  - Geißer, Florian
+AU  - Mattmüller, Robert
+TI  - State-Dependent Cost Partitionings for Cartesian Abstractions in Classical Planning.
+BT  - Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence, IJCAI 2016, New York, NY, USA, 9-15 July 2016
+SP  - 3161
+EP  - 3169
+PY  - 2016//
+UR  - http://www.ijcai.org/Abstract/16/448
+ER  -
+

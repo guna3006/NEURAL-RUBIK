@@ -1,0 +1,16 @@
+Provider: Schloss Dagstuhl - Leibniz Center for Informatics
+Provider: University of Trier
+Database: dblp computer science bibliography
+Content:text/plain; charset="utf-8"
+
+TY  - CPAPER
+ID  - DBLP:conf/socs/SturtevantFH14
+AU  - Sturtevant, Nathan R.
+AU  - Felner, Ariel
+AU  - Helmert, Malte
+TI  - Exploiting the Rubik's Cube 12-Edge PDB by Combining Partial Pattern Databases and Bloom Filters.
+BT  - Proceedings of the Seventh Annual Symposium on Combinatorial Search, SOCS 2014, Prague, Czech Republic, 15-17 August 2014.
+PY  - 2014//
+UR  - http://www.aaai.org/ocs/index.php/SOCS/SOCS14/paper/view/8942
+ER  -
+

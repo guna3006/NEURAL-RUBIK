@@ -1,0 +1,16 @@
+Provider: Schloss Dagstuhl - Leibniz Center for Informatics
+Provider: University of Trier
+Database: dblp computer science bibliography
+Content:text/plain; charset="utf-8"
+
+TY  - CPAPER
+ID  - DBLP:conf/aips/ThayerDR11
+AU  - Thayer, Jordan Tyler
+AU  - Dionne, Austin J.
+AU  - Ruml, Wheeler
+TI  - Learning Inadmissible Heuristics During Search.
+BT  - Proceedings of the 21st International Conference on Automated Planning and Scheduling, ICAPS 2011, Freiburg, Germany June 11-16, 2011
+PY  - 2011//
+UR  - http://aaai.org/ocs/index.php/ICAPS/ICAPS11/paper/view/2710
+ER  -
+

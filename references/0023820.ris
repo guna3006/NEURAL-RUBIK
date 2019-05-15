@@ -1,0 +1,20 @@
+Provider: Schloss Dagstuhl - Leibniz Center for Informatics
+Provider: University of Trier
+Database: dblp computer science bibliography
+Content:text/plain; charset="utf-8"
+
+TY  - BOOK
+ID  - DBLP:books/daglib/0023820
+AU  - Russell, Stuart J.
+AU  - Norvig, Peter
+TI  - Artificial Intelligence - A Modern Approach (3. internat. ed.).
+SP  - I
+EP  - XVIII
+SP  - 1
+EP  - 1132
+PY  - 2010//
+PB  - Pearson Education
+UR  - http://vig.pearsoned.com/store/product/1,1207,store-12521_isbn-0136042597,00.html
+SN  - ISBN 978-0-13-207148-2
+ER  -
+

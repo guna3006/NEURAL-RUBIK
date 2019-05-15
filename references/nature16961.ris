@@ -1,0 +1,34 @@
+TY  - JOUR
+AU  - Silver, David
+AU  - Huang, Aja
+AU  - Maddison, Chris J.
+AU  - Guez, Arthur
+AU  - Sifre, Laurent
+AU  - van den Driessche, George
+AU  - Schrittwieser, Julian
+AU  - Antonoglou, Ioannis
+AU  - Panneershelvam, Veda
+AU  - Lanctot, Marc
+AU  - Dieleman, Sander
+AU  - Grewe, Dominik
+AU  - Nham, John
+AU  - Kalchbrenner, Nal
+AU  - Sutskever, Ilya
+AU  - Lillicrap, Timothy
+AU  - Leach, Madeleine
+AU  - Kavukcuoglu, Koray
+AU  - Graepel, Thore
+AU  - Hassabis, Demis
+TI  - Mastering the game of Go with deep neural networks and tree search
+JO  - Nature
+PY  - 2016/01/27/online
+VL  - 529
+SP  - 484
+EP  -
+PB  - Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.
+SN  -
+UR  - https://doi.org/10.1038/nature16961
+L3  - 10.1038/nature16961
+M3  - Article
+L3  - https://www.nature.com/articles/nature16961#supplementary-information
+ER  -

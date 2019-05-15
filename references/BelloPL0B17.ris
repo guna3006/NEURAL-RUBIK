@@ -1,0 +1,18 @@
+Provider: Schloss Dagstuhl - Leibniz Center for Informatics
+Provider: University of Trier
+Database: dblp computer science bibliography
+Content:text/plain; charset="utf-8"
+
+TY  - CPAPER
+ID  - DBLP:conf/iclr/BelloPL0B17
+AU  - Bello, Irwan
+AU  - Pham, Hieu
+AU  - Le, Quoc V.
+AU  - Norouzi, Mohammad
+AU  - Bengio, Samy
+TI  - Neural Combinatorial Optimization with Reinforcement Learning.
+BT  - 5th International Conference on Learning Representations, ICLR 2017, Toulon, France, April 24-26, 2017, Workshop Track Proceedings
+PY  - 2017//
+UR  - https://openreview.net/forum?id=Bk9mxlSFx
+ER  -
+

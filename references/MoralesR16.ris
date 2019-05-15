@@ -1,0 +1,20 @@
+Provider: Schloss Dagstuhl - Leibniz Center for Informatics
+Provider: University of Trier
+Database: dblp computer science bibliography
+Content:text/plain; charset="utf-8"
+
+TY  - JOUR
+ID  - DBLP:journals/sensors/MoralesR16
+AU  - Morales, Francisco Javier Ordóñez
+AU  - Roggen, Daniel
+TI  - Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition.
+JO  - Sensors
+VL  - 16
+IS  - 1
+SP  - 115
+PY  - 2016//
+DO  - 10.3390/s16010115
+UR  - https://doi.org/10.3390/s16010115
+UR  - https://www.wikidata.org/entity/Q35900770
+ER  -
+

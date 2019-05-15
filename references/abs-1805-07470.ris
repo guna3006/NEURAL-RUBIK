@@ -1,0 +1,18 @@
+Provider: Schloss Dagstuhl - Leibniz Center for Informatics
+Provider: University of Trier
+Database: dblp computer science bibliography
+Content:text/plain; charset="utf-8"
+
+TY  - Informal Publication
+ID  - DBLP:journals/corr/abs-1805-07470
+AU  - McAleer, Stephen
+AU  - Agostinelli, Forest
+AU  - Shmakov, Alexander
+AU  - Baldi, Pierre
+TI  - Solving the Rubik's Cube Without Human Knowledge.
+JO  - CoRR
+VL  - abs/1805.07470
+PY  - 2018//
+UR  - http://arxiv.org/abs/1805.07470
+ER  -
+

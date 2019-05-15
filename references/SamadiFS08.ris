@@ -1,0 +1,18 @@
+Provider: Schloss Dagstuhl - Leibniz Center for Informatics
+Provider: University of Trier
+Database: dblp computer science bibliography
+Content:text/plain; charset="utf-8"
+
+TY  - CPAPER
+ID  - DBLP:conf/aaai/SamadiFS08
+AU  - Samadi, Mehdi
+AU  - Felner, Ariel
+AU  - Schaeffer, Jonathan
+TI  - Learning from Multiple Heuristics.
+BT  - Proceedings of the Twenty-Third AAAI Conference on Artificial Intelligence, AAAI 2008, Chicago, Illinois, USA, July 13-17, 2008
+SP  - 357
+EP  - 362
+PY  - 2008//
+UR  - http://www.aaai.org/Library/AAAI/2008/aaai08-056.php
+ER  -
+
